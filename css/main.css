@@ -71,10 +71,10 @@ html, body {
 }
 body {
 	background: #151515;
-	font-family: "lora-regular", serif;
+	font-family: "poppins-regular", sans-serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #cbcbcb;
 }
 
 /**
@@ -153,10 +153,10 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "lora-regular", serif;
+	font-family: "poppins-regular", sans-serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #cbcbcb;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -945,8 +945,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: 6rem 0 3rem;
 }
 .skill-bars li {
-	height: .6rem;
-	background: #a1a1a1;
+	height: .1rem;
+	background: linear-gradient(45deg, #ff133f, transparent);
 	width: 100%;
 	margin-bottom: 6rem;
 	padding: 0;
@@ -957,7 +957,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1348,7 +1348,7 @@ header .logo a {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "lora-regular", serif;
+	font-family: "poppins-regular", sans-serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
@@ -1491,9 +1491,9 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #252525;
+	background: linear-gradient(181deg, black, #330000, #000);
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	/* padding-bottom: 15rem; */
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1538,7 +1538,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #989898;
+	color: #cbcbcb;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1547,7 +1547,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #cbcbcb;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1623,7 +1623,8 @@ header .logo a {
  */
 #resume {
 	padding-top: 12rem;
-	padding-bottom: 12rem;
+	/* padding-bottom: 12rem; */
+	background: linear-gradient(181deg, black, #221010, #000);
 }
 
 #resume .resume-header {
@@ -1659,7 +1660,7 @@ header .logo a {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #313131;
+	background: #2d2d2d;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
@@ -1686,7 +1687,7 @@ header .logo a {
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: #cbcbcb;
 }
 #resume .timeline-content {
 	margin-left: 35%;
@@ -1701,7 +1702,7 @@ header .logo a {
 	display: block;
 	height: 3px;
 	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
+	background: rgb(255 255 255 / 20%);
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -2251,7 +2252,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #151515;
+	background: linear-gradient(181deg, #000000, #2d0b00, #000);
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
